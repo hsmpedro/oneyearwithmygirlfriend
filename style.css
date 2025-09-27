@@ -1,0 +1,260 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(100, 10, 10);
+}
+
+p {
+    font-size: 20px;
+}
+
+.container-inicio {
+    margin: 75px 0;
+    max-width: 40%;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-inicio h1, h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+}
+
+.contagem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    color: white;
+    text-align: center;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 8px;
+}
+
+.anos {
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    padding: 7px;
+    grid-column: span 3 / span 3;
+}
+
+.meses {
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    padding: 7px;
+    grid-row-start: 2;
+}
+
+.semanas {
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    padding: 7px;
+    grid-row-start: 2;
+}
+
+.dias {
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    padding: 7px;
+    grid-row-start: 2;
+}
+
+.horas {
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    padding: 7px;
+    grid-row-start: 3;
+}
+
+.minutos {
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    padding: 7px;
+    grid-row-start: 3;
+}
+
+.segundos {
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+    padding: 7px;
+    grid-row-start: 3;
+}
+
+.meses-main {
+    justify-items: center;
+    text-align: center;
+    color: white;
+}
+
+.container-meses {
+    max-width: 65%;
+    min-width: 65%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    padding: 20px 50px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+}
+
+.imagens-texto {
+    background-color: rgb(59, 58, 58);
+    margin-top: 40px;
+    margin-bottom: 70px;
+    border-radius: 25px;
+    align-items: center;   
+    
+}
+
+.imagens-texto img {
+    width: auto;
+    height: 450px;
+    border-radius: 25px;
+}
+
+.imagens-texto video {
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.imagens-texto p {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 35%;
+}
+
+.botao-container {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.botao {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgb(140, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: 250ms;
+}
+
+.botao:hover {
+    background-color: rgb(120, 0, 0);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(59, 58, 58);
+}
+
+footer p {
+    font-size: 15px;
+}
+
+.cartinha {
+    max-width: 65%;
+    min-width: 65%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    max-width: 50%;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    background-color: rgb(59, 58, 58);
+    border-radius: 25px;
+}
+
+@media (max-width: 600px) {
+
+    .container-meses {
+        padding: 20px 20px;
+        max-width: 80%;
+        min-width: 80%;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        background-color: rgb(59, 58, 58);
+        border-radius: 25px;
+    }
+
+    .imagens-texto {
+        background-color: rgb(59, 58, 58);
+        margin-top: 40px;
+        margin-bottom: 70px;
+        border-radius: 25px;
+        align-items: center;   
+    }
+
+    .imagens-texto img {
+        width: 100%;
+        height: 400px;
+        border-radius: 25px;
+    }
+
+    .imagens-texto video {
+        width: 100%;
+        height: auto;     
+        max-height: 400px;   
+        border-radius: 25px;
+    }
+
+    .imagens-texto p {
+        font-size: 15px;
+        margin: 10px auto;
+        max-width: 100%;
+    }
+
+    .container-inicio {
+        max-width: 100%;
+        text-align: center;
+        border-radius: 25px;
+        color: white;
+    }
+
+    .botao {
+        font-size: 12px;
+        border-radius: 25px;
+        padding: 20px;
+        background-color: rgb(140, 0, 0);
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+
+    .cartinha {
+        max-width: 80%;
+        min-width: 80%;
+        margin: 50px auto;
+        padding: 20px 20px;
+        text-align: center;
+        color: white;
+        background-color: rgb(59, 58, 58);
+        border-radius: 25px;
+    }
+
+    .cartinha p {
+        font-size: 15px;
+    }
+
+    .contagem {
+        max-width: 90%;
+    }
+
+}
