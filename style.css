@@ -257,4 +257,8 @@ footer p {
         max-width: 90%;
     }
 
+    #colagem {
+        height: 200px;
+        width: auto;
+    }
 }
