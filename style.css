@@ -38,6 +38,7 @@ p {
     padding: 50px;
     border-radius: 20px;
     color: white;
+    text-align: center;
 }
 
 .fechar {
@@ -259,6 +260,7 @@ footer p {
         max-width: 80%;
     }
 }
+
 
 
 
