@@ -257,9 +257,10 @@ footer p {
     }
 
     .janela {
+        height: 75vh;
         min-width: 80%;
         max-width: 80%;
-        padding: 0;
+        padding: 20px;
     }
 }
 
