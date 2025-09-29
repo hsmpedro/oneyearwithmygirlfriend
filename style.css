@@ -14,9 +14,10 @@ p {
     font-size: 20px;
 }
 
+
+
 .janela-overlay {
     position: fixed;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(44, 44, 44);
@@ -238,5 +239,13 @@ footer p {
         height: 200px;
         width: auto;
     }
-}
 
+    .texto {
+        margin: 15px auto  ;
+        max-width: 80%;
+    }
+
+    .janela-overlay {
+        max-width: 80%;
+    }
+}
