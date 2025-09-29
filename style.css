@@ -17,7 +17,7 @@ p {
 
 
 .janela-overlay {
-    margin: 0 auto
+    margin: 0 auto;
     height: 100vh;
     width: 50vw;
     position: fixed;
@@ -250,6 +250,7 @@ footer p {
         max-width: 80%;
     }
 }
+
 
 
 
