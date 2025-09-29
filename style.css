@@ -14,8 +14,6 @@ p {
     font-size: 20px;
 }
 
-
-
 .janela-overlay {
     width: 100vw;
     height: 100vh;
@@ -257,9 +255,10 @@ footer p {
     }
 
     .janela {
-        max-width: 80%;
+        width: 80%;
     }
 }
+
 
 
 
