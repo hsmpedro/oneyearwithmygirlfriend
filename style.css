@@ -20,12 +20,10 @@ p {
     height: 100dvh;
     width: 100dvh;
     position: fixed;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(59, 58, 58);
     color: white;
     border-radius: 25px;
-    z-index: 9999; 
+    z-index: 999; 
 }
 
 .janela {
@@ -251,4 +249,5 @@ footer p {
         max-width: 80%;
     }
 }
+
 
