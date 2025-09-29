@@ -37,6 +37,8 @@ p {
     border-radius: 20px;
     color: white;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .fechar {
@@ -257,6 +259,7 @@ footer p {
     .janela {
         min-width: 80%;
         max-width: 80%;
+        padding: 0;
     }
 }
 
