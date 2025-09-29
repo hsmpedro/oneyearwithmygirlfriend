@@ -37,7 +37,7 @@ p {
     border-radius: 20px;
     color: white;
     text-align: center;
-    justify-content: center;
+    display: flex;
     align-items: center;
 }
 
@@ -261,6 +261,8 @@ footer p {
         min-width: 80%;
         max-width: 80%;
         padding: 20px;
+        display: flex;
+        align-items: center;
     }
 }
 
