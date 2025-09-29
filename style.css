@@ -14,8 +14,6 @@ p {
     font-size: 20px;
 }
 
-
-
 .janela-overlay {
     position: fixed;
     display: flex;
@@ -241,3 +239,4 @@ footer p {
         width: auto;
     }
 }
+
