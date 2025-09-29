@@ -7,12 +7,6 @@ window.onload = function() {
     fechar.onclick = function() {
         janelaOverlay.style.display = "none";
     };
-
-    window.onclick = function(e) {
-        if (e.target === janelaOverlay) {
-            janelaOverlay.style.display = "none";
-        }
-    };
 };  
 
 const dataInicio = new Date("2024-11-15T00:00:00");
@@ -44,5 +38,6 @@ function atualizarContagem() {
 
 setInterval(atualizarContagem, 1000); //Atualiza a contagem a cada 1 segundo
 atualizarContagem();
+
 
 
