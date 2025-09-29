@@ -29,6 +29,7 @@ p {
 
 .janela {
     width: 60%;
+    height: max-content;
     min-width: 450px;
     min-height: 200px;
     background-color: rgb(140, 0, 0);
@@ -258,7 +259,7 @@ footer p {
     }
 
     .janela {
-        height: 60vh;
+        height: max-content;
         min-width: 80%;
         max-width: 80%;
         padding: 20px;
