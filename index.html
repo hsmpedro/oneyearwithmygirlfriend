@@ -10,39 +10,51 @@
 </head>
 
 <body>
+
+    <div class="janela-overlay" id="janela-overlay">
+        <div class="janela">
+            <button class="fechar" id="fechar">X</button>
+            <h2>Em homenagem a todo o nosso amor, resolvi fazer esse site que contém alguns dos nossos incriveis momentos que ja vivemos juntos dentro do nosso primeiro ano de namoro.</h2>
+            <h3>Espero que goste minha princesa! 💞</h3>
+        </div>
+    </div>
+
 <header>
 
 </header>
 
 <main>
-    <div class="container-inicio">
-        <h2>Em homenagem a todo o nosso amor, resolvi fazer esse site que contém alguns dos nossos incriveis momentos que ja vivemos juntos dentro do nosso primeiro ano de namoro.</h2>
-        <h3>Espero que goste minha princesa! 💞</h3>
-    </div>
 
-    <h2 class="texto">Hoje faz exatamente</h2>
+    <h2 style="margin-top: 75px;" class="texto">Hoje faz exatamente</h2>
 
     <div class="contagem"> 
-        <div class="anos">
-            <p>1<br>ano</p>
+        <div class="item-contagem">
+            <p id="anos">00</p>
+            <p>ano</p>
         </div>
-        <div class="meses">
-            <p>12<br>meses</p>
+        <div class="item-contagem">
+            <p id="meses">00</p>
+            <p>meses</p>
         </div>
-        <div class="semanas">
-            <p>52<br>semanas</p>
+        <div class="item-contagem">
+            <p id="semanas">00</p>
+            <p>semanas</p>
         </div>
-        <div class="dias">  <!--"https://g.co/gemini/share/9482cd05f778" link ensinando como fazer o contador em tempo real-->
-            <p>366<br>dias</p>
+        <div class="item-contagem">
+            <p id="dias">00</p>
+            <p>dias</p>
         </div>
-        <div class="horas">
-            <p>8.784<br>horas</p>
+        <div class="item-contagem">
+            <p id="horas">00</p>
+            <p>horas</p>
         </div>
-        <div class="minutos">
-            <p>527.040<br>minutos</p>
+        <div class="item-contagem">
+            <p id="minutos">00</p>
+            <p>minutos</p>
         </div>
-        <div class="segundos">
-            <p>31.622.400<br>segundos</p>
+        <div class="item-contagem">
+            <p id="segundos">00</p>
+            <p>segundos</p>
         </div>
     </div>
 
@@ -73,7 +85,7 @@
         <div class="container-meses">
             <h2>Dezembro 2024</h2>
             <div class="imagens-texto">
-                <video style="width: auto; height: 500px;" controls>
+                <video style="width: auto; height: 500px;" muted controls>
                     <source src="imagens/VID-20241223-WA0158.mp4">
                 </video>
                 <p>O dia em que fomos no sonora (não estava muito legal, mas você fez eu me sentir feliz e animado)</p>
@@ -189,12 +201,14 @@
     <div class="botao-container">
         <a class="botao" href="cartinha.html">Clique aqui para ler a cartinha que fiz para você</a>
     </div>
+
 </main>
 
 <footer>
-    <p>© Site desenvolvido por Pedro, o amor da vida da Luiza</p>
+    <p>© Site desenvolvido por Pedro, o amor da vida da Luiza - v1.0</p>
 </footer>
+
+    <script src="script.js"></script>
+
 </body>
-
 </html>
-
