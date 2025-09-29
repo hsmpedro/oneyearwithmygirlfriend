@@ -259,6 +259,7 @@ footer p {
     }
 
     .janela {
+        top: 40%;
         height: max-content;
         min-width: 80%;
         max-width: 80%;
