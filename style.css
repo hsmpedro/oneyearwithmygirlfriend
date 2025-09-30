@@ -105,7 +105,7 @@ p {
     margin-bottom: 70px;
     border-radius: 25px;
     align-items: center;   
-    
+
 }
 
 .imagens-texto img {
@@ -171,6 +171,20 @@ footer p {
     padding: 25px;
     background-color: rgb(59, 58, 58);
     border-radius: 25px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(10px);
+    transition: 1s;
+    transform: translateY(20%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transition: 1s;
+    transform: translateY(0);
 }
 
 @media (max-width: 600px) {
