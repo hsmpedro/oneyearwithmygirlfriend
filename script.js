@@ -25,8 +25,6 @@ function atualizarContagem() {
         (agora.getMonth() < dataInicio.getMonth() || 
         (agora.getMonth() === dataInicio.getMonth() && agora.getDate() < dataInicio.getDate()) ? 1 : 0);
 
-
-
     document.getElementById("anos").textContent = anos;
     document.getElementById("meses").textContent = meses;
     document.getElementById("semanas").textContent = semanas;
@@ -38,3 +36,17 @@ function atualizarContagem() {
 
 setInterval(atualizarContagem, 1000); //Atualiza a contagem a cada 1 segundo
 atualizarContagem();
+
+const myObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show')
+        }   else {
+            entry.target.classList.remove('show')
+        }
+    })
+})
+
+const elements = document.querySelectorAll('.hidden')
+
+elements.forEach ((element) => myObserver.observe(element))
