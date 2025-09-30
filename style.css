@@ -175,14 +175,14 @@ footer p {
 
 .hidden {
     opacity: 0;
-    filter: blur(10px);
-    transition: 1s;
+    transition: 2s;
+    translate: 0 20%;
 }
 
 .show {
     opacity: 1;
-    filter: blur(0px);
-    transition: 1s;
+    transition: 2s;
+    translate: 0 0;
 }
 
 @media (max-width: 600px) {
