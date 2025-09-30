@@ -38,6 +38,3 @@ function atualizarContagem() {
 
 setInterval(atualizarContagem, 1000); //Atualiza a contagem a cada 1 segundo
 atualizarContagem();
-
-
-
