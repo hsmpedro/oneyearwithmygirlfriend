@@ -11,9 +11,6 @@ window.onload = function() {
             janelaOverlay.style.display = "none";
         };
     }
-
-    // O restante do código da contagem e do IntersectionObserver permanece inalterado
-    // pois o problema principal era o erro fatal acima.
 };
 
 const dataInicio = new Date("2024-11-15T00:00:00");
