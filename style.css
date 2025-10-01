@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Alegreya', 'Playfair Display', 'Open Sans', 'Lato', 'Roboto';
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -54,6 +55,11 @@ p {
     background-color: rgb(59, 58, 58);
     color: white;
     cursor: pointer;
+    transition: 500ms;
+}
+
+.fechar:hover {
+    background-color: rgb(34, 33, 33);
 }
 
 .texto {
@@ -139,11 +145,11 @@ p {
     font-weight: bold;
     text-decoration: none;
     color: white;
-    transition: 250ms;
+    transition: 500ms !important;
 }
 
 .botao:hover {
-    background-color: rgb(125, 0, 0);
+    background-color: rgb(110, 0, 0);
 }
 
 footer {
