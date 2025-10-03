@@ -11,6 +11,9 @@ window.onload = function() {
         fechar.onclick = function() {
             janelaOverlay.style.display = "none";
         };
+        janelaOverlay.onclick = function() {
+            janelaOverlay.style.display = "none"
+        }
     }
 };
 
